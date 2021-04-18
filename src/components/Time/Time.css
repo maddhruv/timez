@@ -24,9 +24,16 @@
   visibility: hidden;
   cursor: pointer;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -5px;
+  right: -5px;
+  background: var(--primary);
+  color: var(--foreground);
+  border-radius: 50%;
 }
 .remove:hover {
   transform: scale(1.1);
+}
+.remove:focus,
+.remove:active {
+  transform: scale(0.9);
 }

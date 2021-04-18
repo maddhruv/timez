@@ -6,13 +6,19 @@
     "prod:electron": "NODE_ENV=production electron electron/main.js",
     "test": "web-test-runner \"src/**/*.test.tsx\"",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
-    "lint": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\""
+    "lint": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\"",
+    "pack": "NODE_ENV=production && electron-builder --dir",
+    "dist": "electron-builder -m --publish never"
   },
   "name": "timez",
   "version": "0.0.1-beta.0",
   "main": "electron/main.js",
+  "description": "Timezones app",
+  "author": {
+    "name": "Dhruv Jain",
+    "email": "dhruvjainpenny@gmail.com"
+  },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0",
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.33",
     "react": "^17.0.0",

@@ -1,0 +1,12 @@
+.timez {
+  padding-top: 3vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.timez > .card {
+  --card-padding: 1%;
+  margin: var(--card-padding);
+  flex: 0 0 calc(20%);
+}

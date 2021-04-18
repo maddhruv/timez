@@ -1,0 +1,32 @@
+.time-title {
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+.time {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--primary);
+}
+.date {
+  color: var(--secondary);
+}
+
+.card {
+  position: relative;
+}
+
+.card:hover > .remove {
+  visibility: visible;
+}
+
+.remove {
+  visibility: hidden;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.remove:hover {
+  transform: scale(1.1);
+}

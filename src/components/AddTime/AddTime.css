@@ -1,0 +1,14 @@
+.add-time {
+  height: 80%;
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.select {
+  width: 80%;
+  text-align: left;
+}

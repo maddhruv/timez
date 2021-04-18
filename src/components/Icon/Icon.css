@@ -1,0 +1,6 @@
+#stroke1 {
+  stroke: var(--primary);
+}
+#stroke2 {
+  stroke: var(--secondary);
+}

@@ -1,15 +1,1 @@
-<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
-
- <title/>
- <g>
-  <title>background</title>
-  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
- </g>
- <g>
-  <title>Layer 1</title>
-  <circle id="stroke1" stroke-width="2px" stroke-linejoin="round" stroke-linecap="round" fill="none" r="12.92" cy="17.08" cx="16.31" class="cls-1"/>
-  <line id="stroke2" stroke-width="2px" stroke-linejoin="round" stroke-linecap="round" fill="none" y2="6.31" y1="2" x2="2.15" x1="6.46" class="cls-2"/>
-  <line id="stroke2" stroke-width="2px" stroke-linejoin="round" stroke-linecap="round" fill="none" y2="6.31" y1="2" x2="29.85" x1="25.54" class="cls-2"/>
-  <polyline id="stroke2" stroke-width="2px" stroke-linejoin="round" stroke-linecap="round" fill="none" points="16.31 9.08 16.31 16.46 10.15 16.46" class="cls-2"/>
- </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><title/><g><title>background</title><rect id="canvas_background" width="582" height="402" x="-1" y="-1" fill="none"/></g><g><title>Layer 1</title><circle id="stroke1" cx="16.31" cy="17.08" r="12.92" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="cls-1"/><line id="stroke2" x1="6.46" x2="2.15" y1="2" y2="6.31" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="cls-2"/><line id="stroke2" x1="25.54" x2="29.85" y1="2" y2="6.31" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="cls-2"/><polyline id="stroke2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="16.31 9.08 16.31 16.46 10.15 16.46" class="cls-2"/></g></svg>

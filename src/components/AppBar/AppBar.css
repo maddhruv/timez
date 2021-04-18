@@ -8,12 +8,3 @@
 .brand {
   font-size: 1em;
 }
-.settings {
-  float: right;
-}
-.settings > i {
-  cursor: pointer;
-}
-.settings > i:hover {
-  transform: scale(1.1);
-}

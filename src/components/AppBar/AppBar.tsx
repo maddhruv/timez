@@ -1,5 +1,6 @@
 import React from 'react';
-import { Icon } from '../Icon';
+import { Icon } from '@components/Icon';
+import { Settings } from '@components/Settings';
 import './AppBar.css';
 
 export const AppBar = () => {
@@ -8,9 +9,7 @@ export const AppBar = () => {
       <div className="brand">
         <Icon /> Timez
       </div>
-      <div className="settings">
-        <i className="gg-options"></i>
-      </div>
+      <Settings />
     </div>
   );
 };

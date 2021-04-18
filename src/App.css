@@ -2,6 +2,7 @@
   background: var(--background);
   height: 100vh;
   max-height: 100vh;
+  overflow-y: hidden;
   color: var(--foreground);
   padding: 2vw;
 }

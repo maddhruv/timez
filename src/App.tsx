@@ -1,25 +1,19 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { AppBar, Timez } from '@components/index';
-import { TimeZone } from '@controllers/timezones';
+import { TimeZone, SettingsProvider } from '@controllers/index';
 import './App.css';
 
 interface AppProps {}
 
 function App({}: AppProps) {
-  // Create the count state.
-  const [count, setCount] = useState(0);
-  // Create the counter (+1 every second).
-  useEffect(() => {
-    const timer = setTimeout(() => setCount(count + 1), 1000);
-    return () => clearTimeout(timer);
-  }, [count, setCount]);
-  // Return the App component.
   return (
     <div className="App">
-      <TimeZone>
-        <AppBar />
-        <Timez />
-      </TimeZone>
+      <SettingsProvider>
+        <TimeZone>
+          <AppBar />
+          <Timez />
+        </TimeZone>
+      </SettingsProvider>
     </div>
   );
 }

@@ -6,7 +6,7 @@ function createWindow() {
   const mainWindow = new BrowserWindow({
     width: 1240,
     height: 800,
-    icon: __dirname + '../public/logo.icns',
+    icon: path.join(__dirname, '/public/logo.icns'),
     title: 'Timez',
   });
 
